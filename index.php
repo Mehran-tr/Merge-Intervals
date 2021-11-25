@@ -23,7 +23,9 @@ class Solution {
     }
 }
 
-$Input = [[1,3],[2,6],[8,10],[15,18]];
+$input1 = [[1,3],[2,6],[8,10],[15,18]];
+$input2 = [[1,4],[4,5]];
 
 $solution = new Solution();
-print_r($solution->merge($Input));
+print_r($solution->merge($input1));
+print_r($solution->merge($input2));
